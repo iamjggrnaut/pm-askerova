@@ -243,4 +243,8 @@
     margin-top: 20px;
   }
 
+  .contact-container svg {
+    margin-right: 12px;
+  }
+
 }
