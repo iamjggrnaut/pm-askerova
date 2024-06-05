@@ -235,6 +235,11 @@
 
   #study img {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .prime-btn {
+    margin-top: 20px;
   }
 
 }
