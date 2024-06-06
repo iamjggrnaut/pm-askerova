@@ -17,8 +17,8 @@ import i9 from '../assets/gallery/9.JPG'
 import i10 from '../assets/gallery/10.JPG'
 import i11 from '../assets/gallery/11.JPG'
 
-import mc from '../assets/gallery/mc.JPG'
-import base from '../assets/gallery/base.JPG'
+import mc from '../assets/mc.JPG'
+import base from '../assets/base.JPG'
 
 import igicon from '../assets/igicon.png'
 import { FaPhoneAlt, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
