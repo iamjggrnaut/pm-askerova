@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import GoldSvg from '../components/GoldSvg'
-import base from '../assets/base.png'
-import mc from '../assets/mc.png'
+// import base from '../assets/base.png'
+// import mc from '../assets/mc.png'
 import Carousel from 'react-bootstrap/Carousel';
 import Modal from 'react-bootstrap/Modal';
 
@@ -16,6 +16,9 @@ import i8 from '../assets/gallery/8.JPG'
 import i9 from '../assets/gallery/9.JPG'
 import i10 from '../assets/gallery/10.JPG'
 import i11 from '../assets/gallery/11.JPG'
+
+import mc from '../assets/gallery/mc.JPG'
+import base from '../assets/gallery/base.JPG'
 
 import igicon from '../assets/igicon.png'
 import { FaPhoneAlt, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
