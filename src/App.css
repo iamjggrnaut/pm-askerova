@@ -118,11 +118,17 @@
 .course-description {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .course-row {
   padding-bottom: 40px;
+}
+
+.course-row img {
+  width: 100%;
+  height: 50%;
+  object-fit: contain;
 }
 
 .carousel-item img {
@@ -204,6 +210,11 @@
 
   .course-row img {
     width: 100%;
+  }
+
+  .course-row:last-child {
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .bottom-block {
