@@ -208,6 +208,10 @@
     display: none;
   }
 
+  .price p {
+    font-size: 14px;
+  }
+
   .mobile-nav {
     display: flex;
     flex-direction: column;
