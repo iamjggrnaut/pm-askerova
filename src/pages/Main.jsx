@@ -22,6 +22,7 @@ import base from '../assets/base.JPG'
 
 import igicon from '../assets/igicon.png'
 import { FaPhoneAlt, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
+import Navbar from '../components/Navbar';
 
 
 const Main = () => {
@@ -31,6 +32,7 @@ const Main = () => {
 
     return (
         <div className='main-page'>
+            <Navbar />
 
             {/* HERO BLOCK */}
             <div className="hero-block">
@@ -199,7 +201,11 @@ const Main = () => {
                 <div className="container contact-container pt-5 pb-5">
                     <h3 className="title mt-5">За более детальной информацией свяжитесь с нами</h3>
                     <div className="row pt-5">
+
                         <div className="col">
+                            <div className="mt-2">
+                                <p className="title fs-4 mb-3">Услуги</p>
+                            </div>
                             <div className="d-flex gap-2 mb-3 align-items-center contact-line">
                                 <FaPhoneAlt style={{ fontSize: '20px' }} />
                                 <span>Тел.: +7 916 620 7384</span>
@@ -213,6 +219,25 @@ const Main = () => {
                             <div className="d-flex gap-2 mb-3 align-items-center contact-line">
                                 <FaTelegramPlane style={{ fontSize: '20px' }} />
                                 <span>Telegram: <a target='_blank' style={{ textDecoration: 'none', color: '#FFB444' }} href="https://t.me/Kama_AR90">Кямаля Аскерова</a></span>
+                                <span></span>
+                            </div>
+
+                            <div className="mt-2">
+                                <p className="title fs-4 mb-3">Обучение</p>
+                            </div>
+                            <div className="d-flex gap-2 mb-3 align-items-center contact-line">
+                                <FaPhoneAlt style={{ fontSize: '20px' }} />
+                                <span>Тел.: +7 985 926 1717</span>
+                                <span></span>
+                            </div>
+                            <div className="d-flex gap-2 mb-3 align-items-center contact-line">
+                                <FaWhatsapp style={{ fontSize: '20px' }} />
+                                <span>What'sApp: +7 985 926 1717</span>
+                                <span></span>
+                            </div>
+                            <div className="d-flex gap-2 mb-3 align-items-center contact-line">
+                                <FaTelegramPlane style={{ fontSize: '20px' }} />
+                                <span>Telegram: <a target='_blank' style={{ textDecoration: 'none', color: '#FFB444' }} href="https://t.me/+79859261717">+7 985 926 1717</a></span>
                                 <span></span>
                             </div>
 

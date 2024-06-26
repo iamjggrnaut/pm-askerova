@@ -3,14 +3,15 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Main from './pages/Main';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Service from './pages/Service';
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar />
         <Routes>
           <Route path='/' element={<Main />} />
+          <Route path='/service' element={<Service />} />
           <Route path='/*' element={<Navigate to={'/'} replace />} />
         </Routes>
         <Footer />
