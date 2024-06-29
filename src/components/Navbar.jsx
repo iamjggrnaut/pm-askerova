@@ -16,6 +16,7 @@ const Navbar = () => {
 
             <div className="mobile-nav">
                 <Logo />
+                <a href="/service">Услуги</a>
                 <a href="#about-block">О нас</a>
                 <a href="#study">Обучение</a>
                 <a href="#gallery">Галерея</a>
