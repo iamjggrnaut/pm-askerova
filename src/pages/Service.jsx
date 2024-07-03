@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../components/Logo'
 import { useNavigate } from 'react-router-dom'
+import { FaPhoneAlt, FaTelegramPlane, FaWhatsapp } from 'react-icons/fa'
 
 const Service = () => {
 
@@ -62,7 +63,27 @@ const Service = () => {
                         Refresh межресничка / стрелка с растушёвкой - 6 000₽ / 9 000₽
                     </p>
                     <br />
+
+                    <div className="container mt-2 pb-5">
+                        <div className="d-flex gap-2 mb-3 align-items-center contact-line">
+                            <FaPhoneAlt style={{ fontSize: '20px' }} />
+                            <span>Тел.: +7 916 620 7384</span>
+                            <span></span>
+                        </div>
+                        <div className="d-flex gap-2 mb-3 align-items-center contact-line">
+                            <FaWhatsapp style={{ fontSize: '20px' }} />
+                            <span>What'sApp: +7 916 620 7384</span>
+                            <span></span>
+                        </div>
+                        <div className="d-flex gap-2 mb-3 align-items-center contact-line">
+                            <FaTelegramPlane style={{ fontSize: '20px' }} />
+                            <span>Telegram: <a target='_blank' style={{ textDecoration: 'none', color: '#FFB444' }} href="https://t.me/Kama_AR90">Кямаля Аскерова</a></span>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
+
+
             </div>
         </div>
     )

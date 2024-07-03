@@ -178,6 +178,7 @@
 .service-page {
   min-height: 100vh;
   background-image: url('/src/assets/herobg.png');
+  background-repeat: no-repeat;
 }
 
 .price {

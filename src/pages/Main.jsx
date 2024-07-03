@@ -323,7 +323,7 @@ const Main = () => {
                         Выпускной сертификат, подтверждающий квалификацию.
                     </p>
                     <br />
-                    <p className="fw-bold">Стоимость: 120.000 руб.</p>
+                    <p className="fw-bold">Стоимость: <span style={{ textDecoration: 'line-through' }}>120.000 руб.</span> <span style={{ color: 'red', fontWeight: '600', fontSize: '24px' }}>72 000 руб.</span></p>
                     <p>Возможна рассрочка</p>
                 </Modal.Body>
                 <Modal.Footer>
