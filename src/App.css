@@ -196,6 +196,12 @@
 }
 
 
+.kama-img {
+  /* min-width: 200px; */
+  max-width: 100%;
+  margin-bottom: 30px;
+  /* height: auto;  */
+}
 
 @media screen and (max-width: 1048px) {
 

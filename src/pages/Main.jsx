@@ -12,7 +12,7 @@ import i4 from '../assets/gallery/4.JPG'
 import i5 from '../assets/gallery/5.JPG'
 import i6 from '../assets/gallery/6.JPG'
 import i7 from '../assets/gallery/7.JPG'
-import i8 from '../assets/gallery/8.JPG'
+// import i8 from '../assets/gallery/8.JPG'
 import i9 from '../assets/gallery/9.JPG'
 import i10 from '../assets/gallery/10.JPG'
 import i11 from '../assets/gallery/11.JPG'
@@ -23,6 +23,14 @@ import base from '../assets/base.JPG'
 import igicon from '../assets/igicon.png'
 import { FaPhoneAlt, FaWhatsapp, FaTelegramPlane } from "react-icons/fa";
 import Navbar from '../components/Navbar';
+
+
+import k1 from '../assets/kama/k1.HEIC'
+import k2 from '../assets/kama/k2.HEIC'
+import k3 from '../assets/kama/k3.JPG'
+import k4 from '../assets/kama/k4.HEIC'
+import k5 from '../assets/kama/k5.jpg'
+import k6 from '../assets/kama/k3.HEIC'
 
 
 const Main = () => {
@@ -62,6 +70,13 @@ const Main = () => {
                 <div className="container about-container">
                     <h2 className='title text-center'>Студия перманентного макияжа "PM askerova"</h2>
                     <div className='about-description'>
+                        <p style={{ fontSize: '24px' }} className='title'>Кямаля Аскерова</p>
+                        <p style={{ fontSize: '20px' }}>
+                            Амбассадор  компании AS COMPANY <br />
+                            Спикер живых показов в зоне НОН СТОП <br />
+                            Участник международного чемпионата АЗИЯ ФЕСТ
+                        </p>
+                        <hr style={{ width: '40%' }} />
                         <p>
                             Добро пожаловать в <span style={{ color: '#FFB444', fontWeight: '600' }}>"PM askerova"</span> – студию перманентного <br />
                             макияжа под руководством талантливого мастера <br />
@@ -108,6 +123,20 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+
+
+            <div className="container">
+                <div className="row kama-scroll">
+                    {/* <img src={k1} alt="" className="col kama-img" />
+                <img src={k2} alt="" className="col kama-img" /> */}
+                    <img src={k3} alt="" className="col kama-img" />
+                    {/* <img src={k4} alt="" className="col kama-img" /> */}
+                    <img src={k5} alt="" className="col kama-img" />
+                    {/* <img src={k6} alt="" className="col kama-img" /> */}
+                </div>
+            </div>
+
+
 
             <div id="study">
                 <div className="container study-container">
@@ -181,9 +210,9 @@ const Main = () => {
                         <Carousel.Item>
                             <img src={i7} alt="" />
                         </Carousel.Item>
-                        <Carousel.Item>
-                            <img src={i8} alt="" />
-                        </Carousel.Item>
+                        {/* <Carousel.Item> */}
+                        {/* <img src={i8} alt="" /> */}
+                        {/* </Carousel.Item> */}
                         <Carousel.Item>
                             <img src={i9} alt="" />
                         </Carousel.Item>
