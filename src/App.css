@@ -215,6 +215,12 @@
     display: none;
   }
 
+  .kama-img {
+    width: 100% !important;
+    height: 50vh !important;
+    object-fit: cover;
+  }
+
   .price p {
     font-size: 14px;
   }
